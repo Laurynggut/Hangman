@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="estilos.css"><!-- conectamos el css-->
+
+<script type="text/javascript" src="javascript.js"></script><!-- conectamos el js-->
+
+</head>
+
+<body onload="lineas();">
+
+<div id="contenedor">
+
+<h2>Hangman</h2>
+
+<img id="hangman" src="1.PNG" /><!-- aparecerá la primera imagen ,la horca-->
+
+<div id="lineas"></div><!--espacios para la palabras sabremos cuantas tiene cada palabra-->
+
+<div id="content"><!-- creamos el contenido de letras,para formar lo que luego va a ser nuestro teclado-->
+
+<div id="a" onclick="abc('a')">A</div>
+<div id="b" onclick="abc('b')">B</div>
+<div id="c" onclick="abc('c')">C</div>
+<div id="d" onclick="abc('d')">D</div>
+<div id="e" onclick="abc('e')">E</div>
+<div id="f" onclick="abc('f')">F</div>
+<div id="g" onclick="abc('g')">G</div>
+<div id="h" onclick="abc('h')">H</div>
+<div id="i" onclick="abc('i')">I</div>
+<div id="j" onclick="abc('j')">J</div>
+<div id="k" onclick="abc('k')">K</div>
+<div id="l" onclick="abc('l')">L</div>
+<div id="m" onclick="abc('m')">M</div>
+<div id="n" onclick="abc('n')">N</div>
+<div id="o" onclick="abc('o')">O</div>
+<div id="p" onclick="abc('p')">P</div>
+<div id="q" onclick="abc('q')">Q</div>
+<div id="r" onclick="abc('r')">R</div>
+<div id="s" onclick="abc('s')">S</div>
+<div id="t" onclick="abc('t')">T</div>
+<div id="u" onclick="abc('u')">U</div>
+<div id="v" onclick="abc('v')">V</div>
+<div id="w" onclick="abc('w')">W</div>
+<div id="x" onclick="abc('x')">X</div>
+<div id="y" onclick="abc('y')">Y</div>
+<div id="z" onclick="abc('z')">Z</div>
+
+</div>
+
+</div>
+<input type="button" value="New game!" onclick="location.reload()" /><!-- creamos el boton de nuevo juego,cada vez que se termine con cada palabra,donde cada vez que pulsemos,cargará un nuevo juego-->
+
+</body>
+
+
+</html>
